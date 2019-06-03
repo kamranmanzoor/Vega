@@ -7,10 +7,6 @@ namespace Vega
 {
     public class Test
     {
-
-        public Test()
-        {
-
-        }
+       
     }
 }
