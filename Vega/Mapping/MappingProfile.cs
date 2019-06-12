@@ -8,12 +8,13 @@ using Vega.Core.Models;
 
 namespace Vega.Mapping
 {
-    public class MappingProfile: Profile
+    public class MappingProfile : Profile
     {
         public MappingProfile()
         {
             CreateMap<Make, MakeResource>();
             CreateMap<Model, ModelResource>();
+            CreateMap<Feature, KeyValuePairResource>();
         }
 
     }
