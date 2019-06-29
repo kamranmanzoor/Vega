@@ -71,6 +71,11 @@
         <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       </ResolvedFileToPublish>
     </ItemGroup>
+    <ItemGroup>
+      <Content Include="ClientApp\tsconfig.json">
+        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
   </Target>
 
 </Project>
