@@ -7,7 +7,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { VehicleFormComponent } from './vehicle-form/vehicle-form.component';
 import { HttpClientModule } from '@angular/common/http';
-import { MakeService } from './services/make.service';
+import { VehicleService } from './services/vehicle.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +22,8 @@ import { MakeService } from './services/make.service';
     BsDropdownModule.forRoot()
   ],
   providers: [
-    MakeService
+    VehicleService
+    
   ],
   bootstrap: [AppComponent]
 })

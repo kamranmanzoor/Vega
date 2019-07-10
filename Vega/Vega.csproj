@@ -48,7 +48,6 @@
 
   <ItemGroup>
     <Folder Include="ClientApp\src\app\models\" />
-    <Folder Include="ClientApp\src\app\services\" />
     <Folder Include="ClientApp\src\assets\js\" />
   </ItemGroup>
 
@@ -81,11 +80,11 @@
         <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       </ResolvedFileToPublish>
     </ItemGroup>
-    <ItemGroup>
+    <!--<ItemGroup>
       <Content Include="ClientApp\tsconfig.json">
         <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       </Content>
-    </ItemGroup>
+    </ItemGroup>-->
   </Target>
 
 </Project>

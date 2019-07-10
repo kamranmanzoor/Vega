@@ -6,7 +6,7 @@ import { Observable, of, from } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class MakeService {
+export class VehicleService {
 
   constructor(private http: HttpClient) { }
   
@@ -16,4 +16,9 @@ export class MakeService {
     //  res
     //}));
   }
+
+  getFeatures() {
+    return this.http.get('/api/features');
+  }
+
 }
